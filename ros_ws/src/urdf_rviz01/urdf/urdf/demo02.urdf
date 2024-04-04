@@ -1,0 +1,30 @@
+<robot name="mycar">
+    <link name="base_link">
+        <visual>
+            <!-- 1.形状 -->
+            <geometry>
+                <!-- 长方体 -->
+                <!-- <box size="0.3 0.2 0.1"/> -->
+                <!-- 圆柱 -->
+                <!-- <cylinder radius="0.1" length="2"/> -->
+                <!-- 球 -->
+                <!-- <sphere radius="1" /> -->
+                <!-- 皮肤 -->
+                <mesh filename="package://urdf_rviz01/meshes/autolabor_mini.stl"/>
+            </geometry>
+
+            <!-- 2.偏移量与倾斜弧度 -->
+            <!-- <
+                xyz:x y z的偏移量
+                rpy:x翻滚 y俯仰 z偏航
+            > -->
+            <origin xyz="1 0 0 " rpy="1.57 0 1.57"/>
+            
+            <!-- 颜色: a=透明度 -->
+            <material name="black">
+                <color rgba="1 0.45 0.6 0.9" />
+            </material>
+
+        </visual>
+    </link>
+</robot>
