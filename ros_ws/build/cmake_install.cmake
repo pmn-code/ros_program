@@ -138,6 +138,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ubuntu/ros_ws/build/arbotix_ros/arbotix_sensors/cmake_install.cmake")
   include("/home/ubuntu/ros_ws/build/arbotix_ros/arbotix_msgs/cmake_install.cmake")
   include("/home/ubuntu/ros_ws/build/helloworld/cmake_install.cmake")
+  include("/home/ubuntu/ros_ws/build/nav_demo/cmake_install.cmake")
   include("/home/ubuntu/ros_ws/build/urdf_gazebo/cmake_install.cmake")
   include("/home/ubuntu/ros_ws/build/urdf_rviz01/cmake_install.cmake")
 

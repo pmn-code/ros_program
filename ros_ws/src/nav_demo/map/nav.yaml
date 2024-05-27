@@ -1,0 +1,11 @@
+image: /home/ubuntu/ros_ws/src/nav_demo/map/nav.pgm
+# 单位米/像素
+resolution: 0.050000
+origin: [-50.000000, -50.000000, 0.000000]
+# 取反
+negate: 0
+# 占用阈值
+occupied_thresh: 0.65
+# 空闲阈值
+free_thresh: 0.196
+
